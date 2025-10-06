@@ -176,6 +176,11 @@ a {
     transform: translateY(-2px);
 }
 
+.this-year-img {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
 
 .this-year-p {
   text-align: center;
@@ -409,21 +414,20 @@ a {
   background-color: var(--black);
   height: 270px;
   padding: 15px;
-  animation-name: slideUP;
-  animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 1s;
   color: var(--white);
 }
 
 
 
 /* ANIMATIONS */
-@keyframes slideUP {
+@keyframes fadeIn {
   from {
-    transform: translateY(250px);
+
     opacity: 0;
   }
   to {
-     transform: translateY(0px);
      opacity: 1;
   }
 }
