@@ -104,10 +104,6 @@ p a {
 
 }
 
-.this-year-p {
-  text-align: center;
-}
-
 
 section {
     padding: 0 30px;
@@ -180,21 +176,269 @@ a {
     transform: translateY(-2px);
 }
 
-/* .this-year-img {
-  
-} */
 
-.contestant-info {
-  background-color: var(--white);
-  height: 250px;
-  padding: 15px;
+.this-year-p {
+  text-align: center;
+}
+
+.right-arrow {
+  width: 45px;
+  padding-right: 12px;
+  animation-name: arrow;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  
+}
+
+.p-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
+
+/* Arron */
+
+.aaron-close-button {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
 
 #aaron-info {
   display: none;
+  position: relative;
 }
 
+/* Hassan */
+
+.hassan-close-button {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+
+#hassan-info {
+  display: none;
+  position: relative;
+}
+
+
+/* Iain */
+
+.iain-close-button {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+
+#iain-info {
+  display: none;
+  position: relative;
+}
+
+
+/* Jasmine */
+
+.jasmine-close-button {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+
+#jasmine-info {
+  display: none;
+  position: relative;
+}
+
+
+/* Jessika */
+
+.jessika-close-button {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+
+#jessika-info {
+  display: none;
+  position: relative;
+}
+
+
+/* Leighton */
+
+.leighton-close-button {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+
+#leighton-info {
+  display: none;
+  position: relative;
+}
+
+
+
+/* Lesley */
+
+.lesley-close-button {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+
+#lesley-info {
+  display: none;
+  position: relative;
+}
+
+
+
+/* Nadia */
+
+.nadia-close-button {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+
+#nadia-info {
+  display: none;
+  position: relative;
+}
+
+
+/* Nataliia */
+
+.nataliia-close-button {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+
+#nataliia-info {
+  display: none;
+  position: relative;
+}
+
+
+/* Pui Man */
+
+.pui-man-close-button {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+
+#pui-man-info {
+  display: none;
+  position: relative;
+}
+
+
+/* Toby */
+
+.toby-close-button {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+
+#toby-info {
+  display: none;
+  position: relative;
+}
+
+
+/* Tom */
+
+.tom-close-button {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+
+#tom-info {
+  display: none;
+  position: relative;
+}
+
+
+
+.contestant-info {
+  background-color: var(--black);
+  height: 270px;
+  padding: 15px;
+  animation-name: slideUP;
+  animation-duration: 0.4s;
+  color: var(--white);
+}
+
+
+
+/* ANIMATIONS */
+@keyframes slideUP {
+  from {
+    transform: translateY(250px);
+    opacity: 0;
+  }
+  to {
+     transform: translateY(0px);
+     opacity: 1;
+  }
+}
+
+@keyframes arrow {
+  from {
+    transform: translateX(-8px);
+
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+  
+}
 
 /* Previous Winners CSS */
 
