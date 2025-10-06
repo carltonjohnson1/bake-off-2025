@@ -66,12 +66,14 @@ h1 {
     padding-top: 40px;
     margin-bottom: 20px;
     color: var(--off-white);
+    text-align: center;
 }
 
 h2 {
     padding-top: 50px;
     font-size: var(--fs-xl);
     margin-bottom: 20px;
+    text-align: center;
 }
 
 p {
@@ -86,16 +88,30 @@ p a {
 .top-text {
     margin-bottom: 30px;
     color: var(--off-white);
+    max-width: 800px;
+    text-align: center;
 }
 
 .top-text a {
   color: #EFC4C9;
 }
 
+.centered-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.this-year-p {
+  text-align: center;
+}
 
 
 section {
     padding: 0 30px;
+
 }
 
 /* FONTS */
@@ -127,7 +143,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1.875rem;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .this-year-txt-wrapper {
@@ -139,16 +155,13 @@ a {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
-
-
 
 .this-year-name {
     font-size: 1.25rem;
     text-transform: uppercase;
     font-weight: var(--fw-semibold);
-
 }
 
 .read-more-btn {
@@ -165,11 +178,21 @@ a {
 .read-more-btn:hover {
     background-color: #6365f1e8;
     transform: translateY(-2px);
+}
+
+/* .this-year-img {
+  
+} */
+
+.contestant-info {
+  background-color: var(--white);
+  height: 250px;
+  padding: 15px;
 
 }
 
-.this-year-p {
-  
+#aaron-info {
+  display: none;
 }
 
 
@@ -329,7 +352,7 @@ a {
   background: var(--neon-blue);
   transform-origin: left center;
   transform: scaleX(0);
-  animation: autoplay-loading 3s linear forwards;
+  animation: autoplay-loading 5s linear forwards;
 }
 
 /* .container {
@@ -338,12 +361,21 @@ a {
 
 section {
       max-width: var(--site-max-width);
-      margin: 20px auto;
+      margin: 0px auto;
       padding-bottom: 60px;
 }
 
 .dark-section {
-  background: var(--black);
+  background-image: url("./images/somone-baking-in-a-kitchen.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.light-section {
+  background-image: url("./images/small-cakes-with-icing.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 

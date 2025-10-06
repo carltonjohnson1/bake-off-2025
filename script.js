@@ -5,7 +5,7 @@ const swiper = new Swiper('.wrapper', {
 
 //   Autoplay
   autoplay: {
-    delay: 3000,
+    delay: 5000,
     disableOnIteraction: false,
     pauseOnMouseEnter: true,
   },
@@ -37,3 +37,5 @@ const swiper = new Swiper('.wrapper', {
     }
   }
 });
+
+/* 2025 CONTESTANT SWAPPING OF IMAGE FOR TEXT*/
