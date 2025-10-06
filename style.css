@@ -512,7 +512,7 @@ a {
 
 .card .card-content .card-text {
   color: var(--text-grey-color);
-  font-size: 0.95rem;
+  font-size: var(--fs-n);
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -646,7 +646,7 @@ section {
 }
 
 .wrapper :where(.swiper-button-prev, .swiper-button-next) {
-  color: var(--neon-blue);
+  color: var(--white);
   margin-top: -35px;
   transition: all 0.3s ease;
 }
@@ -669,6 +669,10 @@ section {
 
 /* Responsive media query code for mobile type screens */
 @media (max-width: 768px) {
+  h1, h2 {
+    font-size: var(--fs-l);
+  }
+
   .wrapper {
     margin: 0 10px 25px;
   }

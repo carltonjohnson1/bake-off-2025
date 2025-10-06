@@ -38,6 +38,10 @@ const swiper = new Swiper('.wrapper', {
   }
 });
 
+
+
+
+
 /* 2025 CONTESTANT SWAPPING OF IMAGE FOR TEXT*/
 
 
