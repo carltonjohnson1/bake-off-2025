@@ -15,9 +15,11 @@
     --white: #fff;
     --black: #000;
     --transparent: #ffffff00;
+    --txt-color: #1f1f1f;
     --main-background: linear-gradient(#EFEFFF, #CCCBFF);
     --neon-blue: #6366f1;
     --off-white: #F5F5F5;
+    --light-grey: #E0E0E0;
 
 
     /* FONT SIZES */
@@ -51,11 +53,36 @@ html {
 
 
 body {
-
   min-height: 100vh;
   background: linear-gradient(#EFEFFF, #CCCBFF);
   font-size: 100%;
   font-family: Inter, sans-serif;
+  color: var(--txt-color);
+}
+
+h1 {
+    font-size: var(--fs-xl);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: var(--fs-xl);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: var(--fs-n);
+}
+
+.top-text {
+    
+    margin-bottom: 30px;
+}
+
+section {
+    padding: 0 30px;
 }
 
 /* FONTS */
@@ -73,6 +100,7 @@ img {
 }
 
 
+
 /* LINKS */
 
 a {
@@ -84,10 +112,49 @@ a {
 
 .this-year-grid {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.875rem;
+}
+
+.this-year-txt-wrapper {
+    padding: 5px 15px;
 }
 
 .this-year-card {
     background-color: var(--off-white);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.this-year-img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.this-year-name {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: var(--fw-semibold);
+
+}
+
+.read-more-btn {
+    background-color: var(--neon-blue);
+    color: var(--white);
+    padding: 12px 30px 12px;
+    margin: 20px 0px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.read-more-btn:hover {
+    background-color: #6365f1e8;
+    transform: translateY(-2px);
+
 }
 
 
@@ -109,7 +176,7 @@ a {
   flex-direction: column;
   border-radius: 20px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .wrapper .card:hover {
@@ -244,12 +311,15 @@ a {
   background: #6366f1;
   transform-origin: left center;
   transform: scaleX(0);
-  animation: autoplay-loading 5s linear forwards;
+  animation: autoplay-loading 3s linear forwards;
 }
 
 .container {
     max-width: var(--site-max-width);
+    margin: 20px auto;
 }
+
+
 
 .container:hover .wrapper .swiper-pagination-bullet-active::before {
   animation-play-state: paused;
@@ -275,7 +345,19 @@ a {
   color: #8b5cf6;
 }
 
-/* Responsive media query code for small screens */
+
+
+/* Responsive media query code for tablet type screens */
+@media (max-width: 1024px) {
+    
+.this-year-grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+}
+
+
+/* Responsive media query code for mobile type screens */
 @media (max-width: 768px) {
   .wrapper {
     margin: 0 10px 25px;
@@ -284,4 +366,13 @@ a {
   .wrapper :where(.swiper-button-prev, .swiper-button-next) {
     display: none;
   }
+
+.this-year-grid {
+    grid-template-columns: 1fr;
+}
+
+
+section {
+    padding: 0 20px;
+}
 }
