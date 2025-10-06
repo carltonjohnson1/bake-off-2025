@@ -48,12 +48,84 @@ const arronImage = document.querySelector("#aaron-image");
 const hassanInfo = document.querySelector("#hassan-info");
 const hassanImage = document.querySelector("#hassan-image");
 
+const iainInfo = document.querySelector("#iain-info");
+const iainImage = document.querySelector("#iain-image");
+
+const jasmineInfo = document.querySelector("#jasmine-info");
+const jasmineImage = document.querySelector("#jasmine-image");
+
+const jessikaInfo = document.querySelector("#jessika-info");
+const jessikaImage = document.querySelector("#jessika-image");
+
+const leightonInfo = document.querySelector("#leighton-info");
+const leightonImage = document.querySelector("#leighton-image");
+
+const lesleyInfo = document.querySelector("#lesley-info");
+const lesleyImage = document.querySelector("#lesley-image");
+
+const nadiaInfo = document.querySelector("#nadia-info");
+const nadiaImage = document.querySelector("#nadia-image");
+
+const nataliiaInfo = document.querySelector("#nataliia-info");
+const nataliiaImage = document.querySelector("#nataliia-image");
+
+const puiManInfo = document.querySelector("#pui-man-info");
+const puiManImage = document.querySelector("#pui-man-image");
+
+const tobyInfo = document.querySelector("#toby-info");
+const tobyImage = document.querySelector("#toby-image");
+
+const tomInfo = document.querySelector("#tom-info");
+const tomImage = document.querySelector("#tom-image");
+
+
 // Getting all btns and putting them in a variable
+
 const aaronBtn = document.querySelector("#aaron-btn");
 const aaronCloseButton = document.querySelector(".aaron-close-button");
 
 const hassanBtn = document.querySelector("#hassan-btn");
 const hassanCloseButton = document.querySelector(".hassan-close-button");
+
+const iainBtn = document.querySelector("#iain-btn");
+const iainCloseButton = document.querySelector(".iain-close-button");
+
+
+const jasmineBtn = document.querySelector("#jasmine-btn");
+const jasmineCloseButton = document.querySelector(".jasmine-close-button");
+
+
+const jessikaBtn = document.querySelector("#jessika-btn");
+const jessikaCloseButton = document.querySelector(".jessika-close-button");
+
+
+const leightonBtn = document.querySelector("#leighton-btn");
+const leightonCloseButton = document.querySelector(".leighton-close-button");
+
+
+const lesleyBtn = document.querySelector("#lesley-btn");
+const lesleyCloseButton = document.querySelector(".lesley-close-button");
+
+
+const nadiaBtn = document.querySelector("#nadia-btn");
+const nadiaCloseButton = document.querySelector(".nadia-close-button");
+
+
+const nataliiaBtn = document.querySelector("#nataliia-btn");
+const nataliiaCloseButton = document.querySelector(".nataliia-close-button");
+
+
+const puiManBtn = document.querySelector("#pui-man-btn");
+const puiManCloseButton = document.querySelector(".pui-man-close-button");
+
+
+const tobyBtn = document.querySelector("#toby-btn");
+const tobyCloseButton = document.querySelector(".toby-close-button");
+
+
+const tomBtn = document.querySelector("#tom-btn");
+const tomCloseButton = document.querySelector(".tom-close-button");
+
 
 
 
@@ -69,6 +141,66 @@ hassanBtn.addEventListener("click", function() {
   //switching image for text on btn click
   hassanImage.style.display = "none";
   hassanInfo.style.display = "block";
+});
+
+iainBtn.addEventListener("click", function() {
+  //switching image for text on btn click
+  iainImage.style.display = "none";
+  iainInfo.style.display = "block";
+});
+
+jasmineBtn.addEventListener("click", function() {
+  //switching image for text on btn click
+  jasmineImage.style.display = "none";
+  jasmineInfo.style.display = "block";
+});
+
+jessikaBtn.addEventListener("click", function() {
+  //switching image for text on btn click
+  jessikaImage.style.display = "none";
+  jessikaInfo.style.display = "block";
+});
+
+leightonBtn.addEventListener("click", function() {
+  //switching image for text on btn click
+  leightonImage.style.display = "none";
+  leightonInfo.style.display = "block";
+});
+
+lesleyBtn.addEventListener("click", function() {
+  //switching image for text on btn click
+  lesleyImage.style.display = "none";
+  lesleyInfo.style.display = "block";
+});
+
+nadiaBtn.addEventListener("click", function() {
+  //switching image for text on btn click
+  nadiaImage.style.display = "none";
+  nadiaInfo.style.display = "block";
+});
+
+nataliiaBtn.addEventListener("click", function() {
+  //switching image for text on btn click
+  nataliiaImage.style.display = "none";
+  nataliiaInfo.style.display = "block";
+});
+
+puiManBtn.addEventListener("click", function() {
+  //switching image for text on btn click
+  puiManImage.style.display = "none";
+  puiManInfo.style.display = "block";
+});
+
+tobyBtn.addEventListener("click", function() {
+  //switching image for text on btn click
+  tobyImage.style.display = "none";
+  tobyInfo.style.display = "block";
+});
+
+tomBtn.addEventListener("click", function() {
+  //switching image for text on btn click
+  tomImage.style.display = "none";
+  tomInfo.style.display = "block";
 });
 
 
@@ -89,6 +221,77 @@ hassanCloseButton.addEventListener("click", function() {
   hassanImage.style.display = "block";
   hassanInfo.style.display = "none";
 });
+
+
+iainCloseButton.addEventListener("click", function() {
+  //switching text for image again when close button clicked
+  iainImage.style.display = "block";
+  iainInfo.style.display = "none";
+});
+
+
+jasmineCloseButton.addEventListener("click", function() {
+  //switching text for image again when close button clicked
+  jasmineImage.style.display = "block";
+  jasmineInfo.style.display = "none";
+});
+
+
+jessikaCloseButton.addEventListener("click", function() {
+  //switching text for image again when close button clicked
+  jessikaImage.style.display = "block";
+  jessikaInfo.style.display = "none";
+});
+
+
+leightonCloseButton.addEventListener("click", function() {
+  //switching text for image again when close button clicked
+  leightonImage.style.display = "block";
+  leightonInfo.style.display = "none";
+});
+
+
+lesleyCloseButton.addEventListener("click", function() {
+  //switching text for image again when close button clicked
+  lesleyImage.style.display = "block";
+  lesleyInfo.style.display = "none";
+});
+
+
+nadiaCloseButton.addEventListener("click", function() {
+  //switching text for image again when close button clicked
+  nadiaImage.style.display = "block";
+  nadiaInfo.style.display = "none";
+});
+
+
+nataliiaCloseButton.addEventListener("click", function() {
+  //switching text for image again when close button clicked
+  nataliiaImage.style.display = "block";
+  nataliiaInfo.style.display = "none";
+});
+
+
+puiManCloseButton.addEventListener("click", function() {
+  //switching text for image again when close button clicked
+  puiManImage.style.display = "block";
+  puiManInfo.style.display = "none";
+});
+
+
+tobyCloseButton.addEventListener("click", function() {
+  //switching text for image again when close button clicked
+  tobyImage.style.display = "block";
+  tobyInfo.style.display = "none";
+});
+
+tomCloseButton.addEventListener("click", function() {
+  //switching text for image again when close button clicked
+  tomImage.style.display = "block";
+  tomInfo.style.display = "none";
+});
+
+
 
 
 
